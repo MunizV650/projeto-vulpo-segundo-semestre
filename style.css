@@ -1,0 +1,130 @@
+html,
+body {
+  min-height: 100%;
+}
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 150, 12, 0.822),
+    rgb(175, 72, 12)
+  );
+  text-align: center;
+  font-family: Roboto;
+}
+.container {
+  background: white;
+  width: 50%;
+  margin: 70px auto;
+  padding: 50px 20px;
+  max-width: 400px;
+}
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 9px;
+  border-width: 0 0 1px 0;
+}
+input[type="checkbox"] {
+  float: left;
+  width: auto;
+}
+input:focus {
+  outline: none;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+h4 {
+  background-color: #001aff;
+  padding: 2%;
+  margin-right: 40%;
+  margin-left: 40%;
+  border-radius: 30px;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+h4:hover {
+  background-color: #86868b3f;
+}
+h6 {
+  border-style: solid;
+  margin: auto;
+  width: 30%;
+  padding: 15px;
+  border-radius: 30px;
+  border-width: 1px;
+}
+.bt {
+  position: relative;
+  border-style: solid;
+  margin: 10px auto;
+  width: 55%;
+  padding: 15px;
+  border-radius: 30px;
+  border-width: 1px;
+  transition: background 0.2s;
+  text-align: center;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.bt:hover {
+  filter: brightness(65%);
+}
+
+.list-horizontal {
+  margin-bottom: 25px;
+  margin-left: -45px;
+  cursor: pointer;
+}
+.list-horizontal li {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+.bt-primary {
+  background-color: #eb913c;
+}
+
+p {
+  padding: 5px;
+}
+.logo {
+  height: px;
+  width: px;
+}
+.valid {
+  border-bottom: 1px solid green;
+}
+
+.invalid {
+  border-bottom: 1px solid red;
+}
+
+@media only screen and (max-width: 450px) {
+  .list-horizontal li {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    min-width: 350px;
+  }
+  .bt,
+  input {
+    width: 90%;
+  }
+}

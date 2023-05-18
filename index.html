@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Vulpo</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="/images/t1logo.png" />
+      </div>
+      <h1>Login</h1>
+      <input type="text" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Senha" />
+      <ul class="list-horizontal">
+        <li><input type="checkbox" /> Lembrar Senha</li>
+        <li>Esqueci minha senha</li>
+      </ul>
+      <a href="/home.html" class="bt bt-primary" onclick="return validateForm()"
+        >Entrar</a
+      >
+    </div>
+  </body>
+</html>
